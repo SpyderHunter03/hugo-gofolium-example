@@ -1,0 +1,32 @@
+---
+label: Publication
+hide_body: false
+fields:
+- type: textarea
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+  description: Publication thumbnail
+- type: text
+  name: author
+  label: author
+  description: 'Ex: John Doe'
+- type: text
+  name: description
+  label: description
+  description: meta description
+- type: field_group_list
+  name: links
+  label: links
+  fields:
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: link
+    label: link

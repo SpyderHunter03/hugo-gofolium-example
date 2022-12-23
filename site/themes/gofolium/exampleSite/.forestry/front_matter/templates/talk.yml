@@ -1,0 +1,28 @@
+---
+label: Talk
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+  description: Talk thumbnail
+- type: text
+  name: description
+  label: description
+  description: meta description
+- type: field_group_list
+  name: links
+  label: links
+  fields:
+  - type: text
+    name: label
+    label: label
+  - type: text
+    name: link
+    label: link
